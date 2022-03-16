@@ -1,0 +1,45 @@
+[
+	{
+		"itemID" : "1",
+		"Name" : "Masala Dosa",
+		"Course" : "Main Course",
+		"Price" : 100
+	},
+	{
+		"itemID" : "2",
+		"Name" : "Pizza",
+		"Course" : "Main Course",
+		"Price" : 200
+	},
+    
+	{
+		"itemID" : "3",
+		"Name" : "Samosa",
+		"Course" : "Starter",
+		"Price" : 300
+	},
+	{
+		"itemID" : "4",
+		"Name" : "Ice Cream",
+		"Course" : "Dessert",
+		"Price" : 200
+	},
+	{
+		"itemID" : "5",
+		"Name" : "Salad",
+		"Course" : "Appetizers",
+		"Price" : 100
+	},
+    {
+		"itemID" : "6",
+		"Name" : "Chips & Dips",
+		"Course" : "Appetizers",
+		"Price" : 100
+	},
+    {
+		"itemID" : "7",
+		"Name" : "Paneer Tikka",
+		"Course" : "Starter",
+		"Price" : 260
+	}
+]

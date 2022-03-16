@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Restraurant Zemoso</title>
+    <meta charset="UTF-8">
+    <meta rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>        
+    <script type="text/javascript" src="/script.js"></script>
+	</head>
+	<body>
+
+
+		<div id="container" style="display:flex;">
+
+			<div class="leftColumn">
+   				
+   				<p style="text-align: center;"><strong>Table</strong></p>
+   				
+   				
+   				<div class="tableSearch" style="width: 20px; padding-left: 20px;padding-bottom: 30px">
+   					
+   					<form>
+   						<input type="search" id ="tableInp" onkeyup="searchTable()" style="height: 30px;box-shadow: 0 4px 8px 0 rgba(0, 0.2, 0, 0.2);"name="Search table" placeholder="Search table"/>
+   						<input type="submit" style="position: absolute; left: -9999px"/>
+   					</form>
+          </div>
+      </div>
+   		
+		
+			<div style="border-left: 1px solid black;flex:1"></div>
+
+
+			<div class="rightColumn">
+				
+				<p style="text-align: center;"><strong>Menu</strong></p>
+
+				<div class="tableSearch" style="width: 100px; padding-left: 20px;padding-bottom: 30px">
+					<form>
+						
+						<input type="text" id="itemInp" onkeyup="searchMenu()" style="width: 500px; height: 30px; box-shadow: 0 4px 8px 0 rgba(0, 0.2, 0, 0.2);" name="Search table" placeholder="Search table"/>					
+						<input type="submit" style="position: absolute; left: -9999px"/>
+					
+					</form>
+				</div> 					
+			 
+			</div>
+		</div>
+
+    
+	</body>
+</html>

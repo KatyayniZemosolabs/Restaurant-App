@@ -1,0 +1,149 @@
+body {
+  font-family:'Times New Roman', Times, serif
+}
+
+/*#formId1{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+    top: 300px;
+    left: 300px;
+    box-shadow: 800 160px 800px 0 rgba(1, 0.2, 0, 0.2);
+}*/
+
+.leftColumn {
+  width: 30%;
+  padding: 0 10px;
+
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+  color: black;
+}
+.rightColumn {
+  float: right;
+  width: 70%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+    width: 20%;
+    height: 100%;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.menuCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 14px;
+  padding-bottom: 5px;
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+.menuCard:hover {
+    /*color: #ccc;*/
+    box-shadow: 0 20px 120px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* left table */
+.tableCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 14px;
+  padding-bottom: 5px;
+  height: 100px;
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  z-index:10;
+}
+
+.tableCard:hover{
+    background-color: DarkOrange;
+}
+
+
+.orderCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 100%;
+  padding: 16px;
+  text-align: center;
+  background-color: salmon;
+  z-index:10;
+}
+
+.ui-helper{
+    width: 30%;
+}
+
+.dropZone{
+    color: salmon;
+    background-color: black;
+    box-shadow: 0 20px 120px 0 rgba(0, 0, 0, 0.2);
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hideform {
+    display: none;
+}
+
+td {
+    padding-right: 30px;
+}
+
+.form_heading{
+    width:100%;
+    height: 50px;
+    padding-top: 10px;
+    font-size: 25px;
+    padding-left: 10px;
+    background-color: blue;
+    color:white;
+}
+
+.close{
+    width:20px;
+    height:20px;
+    font-size: 15px;
+    color:#fff;
+    float: right;
+    font-weight:bold;
+    background-color:#454545;
+    padding-left: 5px;
+    padding-top:1px;
+    border-radius:25px;
+    margin-right: 30px;
+    margin-top: 5px
+}
+
+.close:hover{
+    cursor: pointer;
+}
